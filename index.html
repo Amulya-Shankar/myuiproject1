@@ -1,3 +1,19 @@
+Skip to content
+This repository  
+Pull requests
+Issues
+Gist
+ @Amulya-Shankar
+You don’t have any verified emails. We recommend verifying at least one email.
+Email verification helps our support team verify ownership if you lose account access and allows you to receive all the notifications you ask for.
+ Watch 1
+  Star 0
+  Fork 0
+dontknow/myuiproject1
+ branch: master  myuiproject1/index.html
+@dontknowdontknow a day ago ng-repeat directive tested
+1 contributor
+RawBlameHistory     46 lines (39 sloc)  1.696 kB
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,9 +31,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 </head>
 <body class="container">
-	<h1>My First Angular JS Project</h1>
+    <h1>My First Angular JS Project</h1>
     
-        <form role="form" class="form-horizontal" ng-app ng-init="x=2;y=7">
+        <form role="form" class="form-horizontal" ng-app ng-init='x=2;y=7;arr=["a","3","x"]'>
             <div class="form-group">
                 <label for="x" class="control-label col-md-1">X = </label>
                 <div class="col-md-4">
@@ -32,9 +48,16 @@
             </div>
             <div class="jumbotron">
                 <p>The product of {{ x }} and {{ y }} is <b>{{ x * y }}</b></p>
-            </div>    
+            </div>
+            <div class="well">
+                <ul>
+                    <li ng-repeat="item in arr">{{ item }}</li>
+                </ul>
+            </div>
         </form>
         
     
 </body>
 </html>
+Status API Training Shop Blog About Help
+© 2015 GitHub, Inc. Terms Privacy Security Contact
